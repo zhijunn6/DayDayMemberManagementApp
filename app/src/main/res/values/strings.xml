@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">DayDay</string>
+    <string name="create_new_task">Create</string>
+    <string name="task_name">Task name here</string>
+    <string name="task_date">Task date here</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_1">Member</string>
+    <string name="title_2">Search</string>
+    <string name="title_3">Manage</string>
+
+    <string name="fragment_container">Fragment Container</string>
+
+    <string name="minimum_password">"Your password is too short, please enter at least 6 characters!</string>
+    <string name="auth_failed">"Authentication failed, check your email and password again or sign up.</string>
+    <string name="member_registration">Member Registration</string>
+    <string name="member_name">Name</string>
+    <string name="member_birthday">Birthday</string>
+    <string name="member_ic_number">IC Number</string>
+    <string name="member_email">Email</string>
+    <string name="member_address">Address</string>
+    <string name="member_phone_number">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="login_to_existing_account">Login to existing account</string>
+    <string name="member_benefit_1">1. Vegetables are 5% off, most dry items are 10% off!</string>
+    <string name="member_benefit_2">2. Additional 5% off on your whole birthday month!</string>
+    <string name="member_benefit_3">3. Already discounted items are not applicable to the member discount.</string>
+    <string name="user_details">User Details</string>
+    <string name="birth_day">Birth Day</string>
+    <string name="birth_month">Month</string>
+    <string name="birth_year">Year</string>
+    <string name="member_benefits">Member Benefits</string>
+    <string name="submit_member_details">Submit Details</string>
+
+</resources>

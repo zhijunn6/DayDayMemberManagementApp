@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserDetailsFragment"
+    android:background="@color/colorLight">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+        <TextView
+            android:id="@+id/member_register_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/user_details"
+            android:paddingTop="50dp"
+            android:paddingBottom="40dp"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/ud_member_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/member_name"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/ud_member_birthday_day"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="@string/birth_day" />
+
+            <TextView
+                android:id="@+id/ud_member_birthday_month"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="@string/birth_month"
+                android:layout_toEndOf="@id/ud_member_birthday_day"
+                android:maxLength="2" />
+
+            <TextView
+                android:id="@+id/ud_member_birthday_year"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="@string/birth_year"
+                android:layout_toEndOf="@id/ud_member_birthday_month"
+                android:maxLength="4" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/ud_member_IC"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/member_ic_number"
+            android:paddingTop="20dp"
+            android:maxLength="12" />
+
+        <TextView
+            android:id="@+id/ud_member_Email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/member_email"
+            android:paddingTop="20dp" />
+
+        <TextView
+            android:id="@+id/ud_member_address"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/member_address"
+            android:lines="3"
+            android:minLines="1"
+            android:maxLines="3"
+            android:scrollbars="vertical"
+            android:paddingTop="20dp" />
+
+        <TextView
+            android:id="@+id/ud_member_PhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/member_phone_number"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp" />
+
+    </LinearLayout>
+
+</FrameLayout>

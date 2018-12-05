@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "473736690828",
+    "firebase_url": "https://dayday-d5c75.firebaseio.com",
+    "project_id": "dayday-d5c75",
+    "storage_bucket": "dayday-d5c75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473736690828:android:e22a61589d912e86",
+        "android_client_info": {
+          "package_name": "com.example.chery.dayday"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "473736690828-367171r1svgqg9ldqd3l6qmv81ibl1nr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chery.dayday",
+            "certificate_hash": "7446d36787a07843386d25b2699f2b7268d4864f"
+          }
+        },
+        {
+          "client_id": "473736690828-fadppr51ui0i0u6b6tf7lpnc8sv584f9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxiD5Lc591tSb_Aewt6jz538EiRoxaeB8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "473736690828-fadppr51ui0i0u6b6tf7lpnc8sv584f9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

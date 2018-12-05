@@ -1,0 +1,17 @@
+<resources>
+
+    <style name="AppThemeToolBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- your app branding color for the app bar -->
+        <item name="colorPrimary">#25252F</item>
+        <!-- darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">#25252F</item>
+        <!-- theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">#FF4081</item>
+    </style>
+
+    <style name="focus_edittext" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">#25252F</item>
+        <item name="colorControlActivated">#FF4081</item>
+    </style>
+
+</resources>

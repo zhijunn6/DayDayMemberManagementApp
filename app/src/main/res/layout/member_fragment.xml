@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/member_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:background="@color/colorLight">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="40dp"
+        android:focusableInTouchMode="true">
+
+            <TextView
+                android:id="@+id/member_register_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/member_registration"
+                android:paddingTop="50dp"
+                android:paddingBottom="40dp"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="@color/colorBlack"/>
+
+        <EditText
+            android:id="@+id/member_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/member_name"
+            android:inputType="textPersonName"
+            android:padding="5dp"
+            android:background="@drawable/rounded_edittext"
+            android:theme="@style/focus_edittext"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:weightSum="90"
+            android:paddingTop="10dp">
+
+            <EditText
+                android:id="@+id/member_birthday_day"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:padding="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:hint="@string/birth_day"
+                android:inputType="number"
+                android:maxLength="2"
+                android:theme="@style/focus_edittext"/>
+
+            <EditText
+                android:id="@+id/member_birthday_month"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:padding="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:hint="@string/birth_month"
+                android:inputType="number"
+                android:maxLength="2"
+                android:theme="@style/focus_edittext"/>
+
+            <EditText
+                android:id="@+id/member_birthday_year"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:padding="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:hint="@string/birth_year"
+                android:inputType="number"
+                android:maxLength="4"
+                android:theme="@style/focus_edittext"/>
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:focusableInTouchMode="true">
+
+        <EditText
+            android:id="@+id/member_IC"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/member_ic_number"
+            android:inputType="number"
+            android:padding="5dp"
+            android:background="@drawable/rounded_edittext"
+            android:maxLength="12"
+            android:theme="@style/focus_edittext"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:focusableInTouchMode="true">
+        <EditText
+            android:id="@+id/member_Email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rounded_edittext"
+            android:hint="@string/member_email"
+            android:inputType="textEmailAddress"
+            android:padding="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:focusableInTouchMode="true">
+
+        <EditText
+            android:id="@+id/member_address"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/member_address"
+            android:inputType="textMultiLine"
+            android:lines="3"
+            android:minLines="1"
+            android:maxLines="3"
+            android:scrollbars="vertical"
+            android:padding="5dp"
+            android:background="@drawable/rounded_edittext" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:focusableInTouchMode="true">
+        <EditText
+            android:id="@+id/member_PhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/member_phone_number"
+            android:inputType="phone"
+            android:padding="5dp"
+            android:background="@drawable/rounded_edittext" />
+    </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/open_dialog_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/member_benefits"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorAccent"
+                android:textColor="@color/colorWhite"/>
+
+            <Button
+                android:id="@+id/submit_member_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/submit_member_details"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorAccent"
+                android:textColor="@color/colorWhite"
+                android:layout_below="@+id/open_dialog_button"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
